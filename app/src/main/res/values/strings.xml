@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">萌神机器人应用</string>
+    <string name="app_name">[萌神] 汉语发音练习机器人</string>
+    <string name="title_button_start">开始学习吧!</string>
 </resources>
