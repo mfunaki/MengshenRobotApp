@@ -57,40 +57,51 @@ public class MainActivity extends AppCompatActivity
         tangoList = new ArrayList[4];
         // Geek
         tangoList[0] = new ArrayList();
-        tangoList[0].add(new Tango("颜值", "yán zhí", "22-"));
-        tangoList[0].add(new Tango("还是", "hái shi", "20-"));
-        tangoList[0].add(new Tango("转车", "zhuǎn chē", "31-"));
-        tangoList[0].add(new Tango("机器人", "jī qì rén", "142"));
+        tangoList[0].add(new Tango("安卓", "ān zhuó", "12-"));
         tangoList[0].add(new Tango("电脑", "diàn nǎo", "43-"));
-        tangoList[0].add(new Tango("打电话", "dǎ diàn huà", "344"));
+        tangoList[0].add(new Tango("极客", "jí kè", "24-"));
+        tangoList[0].add(new Tango("机器人", "jī qì rén", "142"));
+        tangoList[0].add(new Tango("蓝牙", "lán yá", "22-"));
+        tangoList[0].add(new Tango("密码", "mì mǎ", "43-"));
         tangoList[0].add(new Tango("苹果", "píng guǒ", "23-"));
+        tangoList[0].add(new Tango("下载", "xià zǎi", "43-"));
 
         // 学汉语
         tangoList[1] = new ArrayList();
+        tangoList[1].add(new Tango("背单词", "bèi dān cí", "412"));
         tangoList[1].add(new Tango("比较", "bǐ jiào", "34-"));
+        tangoList[1].add(new Tango("发音", "fā yīn", "11-"));
+        tangoList[1].add(new Tango("还是", "hái shi", "20-"));
         tangoList[1].add(new Tango("练习", "liàn xí", "42-"));
+        tangoList[1].add(new Tango("提高", "tí gāo", "21-"));
+        tangoList[1].add(new Tango("听力", "tīng lì", "14-"));
+        tangoList[1].add(new Tango("四声", "sì shēng", "41-"));
+        tangoList[1].add(new Tango("学习", "xué xí", "22-"));
 
         // 基本会话
         tangoList[2] = new ArrayList();
-        tangoList[2].add(new Tango("等你", "děng nǐ", "33-"));
-        tangoList[2].add(new Tango("宿舍", "sù shè", "44-"));
-        tangoList[2].add(new Tango("真抱歉", "zhēn bào qiàn", "144"));
         tangoList[2].add(new Tango("办公室", "bàn gōng shì", "414"));
-        tangoList[2].add(new Tango("踢足球", "tī zú qiú", "122"));
-        tangoList[2].add(new Tango("洗手间", "xǐ shǒu jiān", "331"));
         tangoList[2].add(new Tango("帮忙", "bāng máng", "12-"));
-        tangoList[2].add(new Tango("上班", "shàng bān", "41-"));
+        tangoList[2].add(new Tango("打电话", "dǎ diàn huà", "344"));
+        tangoList[2].add(new Tango("东京", "dōng jīng", "11-"));
         tangoList[2].add(new Tango("明天", "míng tiān", "21-"));
+        tangoList[2].add(new Tango("女朋友", "nǚ péng yǒu", "323"));
+        tangoList[2].add(new Tango("日本人", "rì běn rén", "432"));
+        tangoList[2].add(new Tango("上班", "shàng bān", "41-"));
+        tangoList[2].add(new Tango("宿舍", "sù shè", "44-"));
+        tangoList[2].add(new Tango("踢足球", "tī zú qiú", "122"));
+        tangoList[2].add(new Tango("真抱歉", "zhēn bào qiàn", "144"));
 
         // 买东西
         tangoList[3] = new ArrayList();
-        tangoList[3].add(new Tango("多少钱", "duō shǎo qián", "132"));
-        tangoList[3].add(new Tango("微信", "wēi xìn", "14-"));
-        tangoList[3].add(new Tango("押金", "yā jīn", "11-"));
-        tangoList[3].add(new Tango("窗口", "chuāng kǒu", "13-"));
         tangoList[3].add(new Tango("表格", "biǎo gé", "32-"));
-        tangoList[3].add(new Tango("密码", "mì mǎ", "43-"));
+        tangoList[3].add(new Tango("窗口", "chuāng kǒu", "13-"));
+        tangoList[3].add(new Tango("多少钱", "duō shǎo qián", "132"));
         tangoList[3].add(new Tango("服务员", "fú wù yuán", "242"));
+        tangoList[3].add(new Tango("微信", "wēi xìn", "14-"));
+        tangoList[3].add(new Tango("现金", "xiàn jīn", "41-"));
+        tangoList[3].add(new Tango("押金", "yā jīn", "11-"));
+        tangoList[3].add(new Tango("支付宝", "zhī fù bǎo", "143"));
     }
 
     public ArrayList getTangoList(int categoryNo) {
